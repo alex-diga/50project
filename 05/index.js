@@ -9,6 +9,7 @@ function blurring() {
   load++
 
   if (load > 99) {
+    loadText.style.display = 'none';
     clearInterval(int)
   }
 
